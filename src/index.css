@@ -1,0 +1,53 @@
+.tweet{
+  border: 1px solid black;
+  width: 500px;
+  height: 70px;
+  padding: 10px;
+  display: flex;
+  font-family: "Helvetica", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  
+}
+
+.avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.name{
+  font-weight: bold;
+  margin: 0.5em;
+}
+
+.handle{
+  color: gray;
+  font-size: 13px;
+}
+
+.message {
+  margin-left: 8px;
+}
+
+.time {
+  padding: 0.3em;
+  color: blue;
+}
+
+.time::before{
+  content: "\00b7";
+  padding: 0.3em;
+}
+
+.buttons{
+  margin-top: 10px;
+  margin-left: 2px;
+  font-size: 1.4em;
+  color: #aab8c2;
+}
+
+.buttons i {
+  width:80px;
+}
